@@ -1,4 +1,3 @@
-//import { getRandomColor } from "./index.js";
 
 export default class RandomColor {
   static getRandomColor() {
