@@ -3,21 +3,37 @@
   <title>Colors/Rick API</title>
 </head>
 <body>
-  <h1>Random Color & Random Rick<h1>
-    <p>Click the button</p>
+  <div class="container">
+    <h1>Random Color & Random Rick<h1></h1>
     <form id="submitform">
-      <button type="submit" class="btn btn-light" id="randomcolor"><p>Get Random Color</p></button>
+      <button type="submit" class="btn btn-dark" id="randomcolor"><p>Get Random Color</p></button>
     </form>
     <p id="showResponse"></p>
+  </div>
 
-  <h1>Rick N Morty</h1>
-    <form id="rickform">
-      <button type="submit" class="btn btn-light" id="randomRick"><p>Get Random Rick</p></button>
-    </form>
-    <p id="showRick"></p>
-    <img id="charimg"/>
-    <p id="statusRick"></p>
-    <p id="speciesRick"></p>
-    <p id="originRick"></p>
+  <div id="rick-morty-container">
+    <h1>Rick N Morty</h1>
+    <div id="rick-container">
+      <form id="rickform">
+        <button type="submit" class="btn btn-light" id="randomRick"><p>Get Random Rick</p></button>
+      </form>
+      <p id="showRick"></p>
+      <img id="rickIMG"/>
+      <p id="statusRick"></p>
+      <p id="speciesRick"></p>
+      <p id="originRick"></p>
+    </div>
+
+    <div id="morty-container">
+      <form id="mortyform">
+        <button type="submit" class="btn btn-light" id="randomMorty"><p>Get Random Morty</p></button>
+      </form>
+      <p id="showMorty"></p>
+      <img id="mortyIMG"/>
+      <p id="statusMorty"></p>
+      <p id="speciesMorty"></p>
+      <p id="originMorty"></p>
+    </div>
+  </div>
 </body>
 </html>

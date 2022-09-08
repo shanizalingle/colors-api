@@ -17,3 +17,24 @@ body {
   width: 200px;
   height: 50px;
 }
+
+#randomMorty {
+  width: 200px;
+  height: 50px;
+}
+
+#rick-morty-container {
+  padding: 20px 300px;
+}
+
+#rick-container {
+  width: 400px;
+  float: left;
+  height: 500px;
+}
+
+#morty-container {
+  width: 400px;
+  float: right;
+  height: 500px;
+}
